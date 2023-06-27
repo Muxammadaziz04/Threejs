@@ -46,7 +46,7 @@ const App = () => {
   // }, [meshRef.current, texture])
 
   return (
-    <Canvas camera={{ position: [5, 3, 5] }} shadows>
+    <Canvas camera={{ position: [-1, 2, -3]}} shadows>
       <ambientLight color={'white'} intensity={0.15} position={[2.32, -1.04, 1.1]} castShadow />
       <ambientLight color={'white'} intensity={0.15} position={[2.32, -0.62, 1.1]} castShadow />
       <ambientLight color={'white'} intensity={0.15} position={[2.32, -2.7, 1.1]} castShadow />
